@@ -1,0 +1,137 @@
+Module                  Size  Used by
+nfnetlink_queue        28672  0
+nfnetlink_log          20480  0
+nfnetlink              16384  2 nfnetlink_queue,nfnetlink_log
+bluetooth             651264  0
+ecdh_generic           24576  1 bluetooth
+crc16                  16384  1 bluetooth
+hid_generic            16384  0
+usbhid                 61440  0
+hid                   143360  2 usbhid,hid_generic
+snd_hda_codec_hdmi     61440  1
+joydev                 28672  0
+mousedev               24576  0
+ofpart                 20480  0
+cmdlinepart            16384  0
+intel_spi_platform     16384  0
+intel_spi              24576  1 intel_spi_platform
+spi_nor                45056  1 intel_spi
+mtd                    73728  5 cmdlinepart,intel_spi,ofpart
+nvidia_drm             53248  3
+nvidia_modeset       1040384  2 nvidia_drm
+asus_nb_wmi            28672  0
+asus_wmi               32768  1 asus_nb_wmi
+sparse_keymap          16384  1 asus_wmi
+mxm_wmi                16384  0
+intel_rapl             28672  0
+nvidia              17317888  96 nvidia_modeset
+x86_pkg_temp_thermal    20480  0
+intel_powerclamp       20480  0
+coretemp               20480  0
+kvm_intel             245760  0
+wl                   6463488  0
+i915                 2109440  3
+crct10dif_pclmul       16384  1
+crc32c_intel           24576  0
+ghash_clmulni_intel    16384  0
+kvmgt                  32768  0
+vfio_mdev              16384  0
+mdev                   24576  2 kvmgt,vfio_mdev
+vfio_iommu_type1       32768  0
+vfio                   36864  3 kvmgt,vfio_mdev,vfio_iommu_type1
+kvm                   741376  2 kvmgt,kvm_intel
+aesni_intel           200704  0
+snd_hda_codec_realtek   122880  1
+uvcvideo              114688  0
+nls_iso8859_1          16384  1
+snd_hda_codec_generic    90112  1 snd_hda_codec_realtek
+nls_cp437              20480  1
+aes_x86_64             20480  1 aesni_intel
+videobuf2_vmalloc      20480  1 uvcvideo
+vfat                   20480  1
+videobuf2_memops       20480  1 videobuf2_vmalloc
+irqbypass              16384  1 kvm
+snd_hda_intel          49152  4
+fat                    81920  1 vfat
+crypto_simd            16384  1 aesni_intel
+i2c_algo_bit           16384  1 i915
+videobuf2_v4l2         28672  1 uvcvideo
+cryptd                 28672  3 crypto_simd,ghash_clmulni_intel,aesni_intel
+drm_kms_helper        208896  2 nvidia_drm,i915
+fuse                  131072  5
+glue_helper            16384  1 aesni_intel
+videobuf2_common       57344  2 videobuf2_v4l2,uvcvideo
+snd_hda_codec         155648  4 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek
+intel_cstate           16384  0
+videodev              229376  3 videobuf2_v4l2,uvcvideo,videobuf2_common
+cfg80211              778240  1 wl
+intel_uncore          135168  0
+snd_hda_core           98304  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek
+psmouse               172032  0
+intel_rapl_perf        16384  0
+drm                   499712  7 drm_kms_helper,nvidia_drm,i915
+rtsx_usb_ms            24576  0
+pcspkr                 16384  0
+snd_hwdep              16384  1 snd_hda_codec
+memstick               20480  1 rtsx_usb_ms
+input_leds             16384  0
+media                  57344  4 videodev,videobuf2_v4l2,uvcvideo,videobuf2_common
+snd_pcm               135168  4 snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_core
+mei_me                 45056  0
+ipmi_devintf           20480  0
+intel_gtt              24576  1 i915
+intel_pch_thermal      16384  0
+lpc_ich                28672  0
+r8169                  94208  0
+agpgart                53248  2 intel_gtt,drm
+ipmi_msghandler        65536  2 ipmi_devintf,nvidia
+snd_timer              40960  1 snd_pcm
+snd                   102400  16 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek,snd_timer,snd_pcm
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            16384  1 drm_kms_helper
+mei                   114688  1 mei_me
+sysimgblt              16384  1 drm_kms_helper
+fb_sys_fops            16384  1 drm_kms_helper
+rfkill                 28672  5 asus_wmi,bluetooth,cfg80211
+libphy                 86016  2 r8169
+soundcore              16384  1 snd
+processor_thermal_device    16384  0
+int340x_thermal_zone    16384  1 processor_thermal_device
+i2c_i801               36864  0
+intel_soc_dts_iosf     20480  1 processor_thermal_device
+tpm_crb                20480  0
+tpm_tis                16384  0
+tpm_tis_core           24576  1 tpm_tis
+battery                24576  0
+tpm                    69632  3 tpm_tis,tpm_crb,tpm_tis_core
+int3400_thermal        20480  0
+wmi                    32768  2 asus_wmi,mxm_wmi
+ac                     16384  0
+evdev                  20480  13
+rng_core               16384  1 tpm
+acpi_thermal_rel       16384  1 int3400_thermal
+asus_wireless          20480  0
+mac_hid                16384  0
+pcc_cpufreq            20480  0
+sg                     40960  0
+crypto_user            20480  0
+ip_tables              32768  0
+x_tables               49152  1 ip_tables
+f2fs                  544768  1
+fscrypto               32768  1 f2fs
+rtsx_usb_sdmmc         28672  0
+mmc_core              180224  1 rtsx_usb_sdmmc
+rtsx_usb               24576  2 rtsx_usb_sdmmc,rtsx_usb_ms
+sd_mod                 57344  5
+ahci                   40960  4
+libahci                40960  1 ahci
+serio_raw              20480  0
+atkbd                  36864  0
+libps2                 20480  2 atkbd,psmouse
+libata                282624  2 libahci,ahci
+xhci_pci               20480  0
+xhci_hcd              262144  1 xhci_pci
+scsi_mod              258048  3 sd_mod,libata,sg
+crc32_pclmul           16384  1
+i8042                  32768  1 asus_nb_wmi
+serio                  28672  9 serio_raw,atkbd,psmouse,i8042

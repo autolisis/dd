@@ -1,0 +1,50 @@
+systemd     A replacement for init
+udevd     Manages devices
+mpd     Music player
+pulseaudio  Audio server
+fancontrol   Control fan speed
+alsa    Advanced linux sound architecture
+hddtemp    Hard disk temperature
+Smartd   Self-Monitoring, Analysis, Reporting Technology
+acpid    ACPI daemon
+httpd   Apache (Http server)
+lighthttpd   lightweight Http server
+bluetooth    Daemon for bluetooth
+iptables Firewall services
+avahi    Detect locally running network services
+sshd    Secure Shell Daemon
+samba    SMB protocol
+dhcpcd   DHCP Daemon
+dhcpcd   DHCP Daemon
+ntop    Network traffic probe
+bind   DNS server
+pdnsd   Proxy DNS cache
+dnsmasq   DNS cache
+pppd     Point to point protocol
+pptpd     Point to point tunnelling protocol (VPN)
+openvpn     OpenVPN Client daemon
+ntpd    Network tme protocol
+chrony    Alternate network tme protocol daemon
+openntpd    Network tme protocol
+gitd    Network tme protocol
+rsyncd  Rsync daemon
+Psd  Profile sync daemon
+Psqld   Postgresql
+mysqld  Mysql
+xdm     X-Display Manager
+x11-vnc VNC Remote desktop
+deluge Bittorrent Daemon
+dbus   Message bus
+lxdm   LXDE Dispplay manger
+ConnMan   Wifi Manager
+WICD    Network manager
+NetworkManager  Network manager
+Netctl  Network manager
+netctl    Network manager
+cron    Run tasks at specific times
+atd    Run tasks at specific times
+cups    Printer daemon
+sane    Scanner daemon
+syslogd    System Log daemon
+ftpd    File transfer protocol
+vsftpd   Very secure file transfer protocol

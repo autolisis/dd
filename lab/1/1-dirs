@@ -1,0 +1,50 @@
+/	The root directory
+/bin	Essential binaries
+/boot	Boot files, kernel image
+/dev	Contains device nodes
+/etc	System level configuration
+/etc/passwd	Passwords of users
+/etc/sudoers	Users with sudo previliges
+/etc/skel	Skeletons copied on new user creation
+/etc/X11	Configuration for X11
+/home	User files (home directories)
+/lib	Shared libraries
+/lib/firmware	Firmware blobs
+/lib/modules	All loadable kernel modules
+/lib/python     Python libraries
+/lib64	64-bit libraries
+/media	Mount points for USB etc
+/mnt	Mount points for fixed disks
+/opt	Optional heavy binaries, packages
+/proc	Current representation of the process tree
+/proc/cpuinfo	Info about the cpus in the system
+/proc/mounts	Current mounted filesystems
+/proc/cmdline	Kernel command line that was booted
+/root	Root (superuser) 's home
+/run	Temporary filesystem (volatile) only for currently running processes
+/sbin	System binaries
+/srv	Files which are served by this system
+/sys	Kernel objects internal representation
+/run	Temporary filesystem (volatile) can be used as a cache
+/usr	System wide files provided by the OS
+/usr/bin  Binaries that are in user space
+/usr/include	Include files for C
+/usr/include/g++	Include files for C++
+/usr/lib   Object libraries for user space
+/usr/share  Can be shared among different architectures
+/usr/local  Only local programs
+/usr/share/man  Man pages
+/usr/share/info  Info pages
+/usr/share/misc  Miscellaneous data
+/usr/share/terminfo  Terminfo database
+/usr/share/zoneinfo  Time-zone info
+/usr/src  Source code for different parts
+/usr/src/linux  Source code of linux
+/var	Filesystem which can be used by processes as a scratchpad (logs)
+/var/cache	Cache
+/var/cache/www	Web cache data
+/var/lock	Lock files
+/var/log	Log files
+/var/run	Run time files like pid files
+/var/spool	Spooled files like printer spool
+/var/spool/cron	Spooled files for cron

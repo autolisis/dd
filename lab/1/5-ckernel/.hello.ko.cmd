@@ -1,0 +1,1 @@
+cmd_/home/g/dd/lab/1/5-ckernel/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/g/dd/lab/1/5-ckernel/hello.ko /home/g/dd/lab/1/5-ckernel/hello.o /home/g/dd/lab/1/5-ckernel/hello.mod.o ;  true
