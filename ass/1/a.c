@@ -10,7 +10,7 @@
 #include <sys/types.h>
 
 /* default snap length (maximum bytes per packet to capture) */
-#define SNAP_LEN 1518
+#define SNAP_LEN 65535
 
 /* ethernet headers are always exactly 14 bytes [1] */
 #define SIZE_ETHERNET 14
