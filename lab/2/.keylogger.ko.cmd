@@ -1,0 +1,1 @@
+cmd_/home/g/w/dd/lab/2/keylogger.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/g/w/dd/lab/2/keylogger.ko /home/g/w/dd/lab/2/keylogger.o /home/g/w/dd/lab/2/keylogger.mod.o ;  true
