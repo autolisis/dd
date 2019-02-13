@@ -1,0 +1,3 @@
+[submodule "lab/2/mouselogger"]
+	path = lab/2/mouselogger
+	url = https://github.com/reisub0/mouselogger
